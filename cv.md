@@ -24,3 +24,14 @@ function calculate() {
     return inside;
 }
 ```
+
+## **Experience**
+[Portfolio](https://rolling-scopes-school.github.io/zem41k-JSFEPRESCHOOL/portfolio/). (HTML, CSS, JS)<br>
+[Memory-game](https://rolling-scopes-school.github.io/zem41k-JSFEPRESCHOOL/memory-game/). (HTML, CSS, JS)<br>
+
+## **Education**
+Institute of Economics and Information Technologies in Zaporozhye.<br>
+Faculty: computer systems and networks.
+
+## **English**
+My level of English is A1, but I will try to constantly improve it.

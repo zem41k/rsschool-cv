@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mihail Samofalov CV</title>
 </head>
+
 <body>
-    
+    <div class="nav-menu">
+        <header>
+            <nav>
+                <ul class="nav-flex">
+                    <li><a class="link-nav" href="#about-me">About me</a></li>
+                    <li><a class="link-nav" href="#education">Education</a></li>
+                    <li><a class="link-nav" href="#code">Code</a></li>
+                    <li><a class="link-nav" href="#experience">Experience</a></li>
+                    <li><a class="link-nav" href="#english">English</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="flex-parent">
+        <div class="leftside">
+            <aside>
+                <img class="photo" src="./img/photo.jpg" alt="My photo">
+                <article>
+                    <h2 class="contacts">MY CONTACTS</h2>
+                    <div class="aside-line"></div>
+                    <ul class="sidebar-text">
+                        <li>Email: samofalov.mm@gmail.com</li>
+                        <li>Discord: zem41k#1129</li>
+                        <li>Telegram:<a class="link-tel" href="https://t.me/zem41k">@zem41k</a></li>
+                    </ul>
+                </article>
+                <section>
+                    <h2 class="contacts">SKILLS</h2>
+                    <div class="aside-line"></div>
+                    <ul class="sidebar-text">
+                        <li>HTML, CSS, FLEX basics</li>
+                        <li>Git basic</li>
+                        <li>VS code basic</li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+
+        <div class="rightside">
+            <main>
+                <h1 class="head">Mihail Samofalov</h1>
+                <div class="main-line"></div>
+                <section id="about-me">
+                    <h2 class="about-me">About me</h2>
+                    <div class="about-me-text">Ever since school age, I was attracted by mathematics and other exact
+                        sciences. Then my interest moved smoothly to computer technology and programming. I started
+                        studying at the institute in this direction, where at the initial stages I showed very good
+                        results. But for family reasons, I had to change my occupation. And now, after 10 years, I still
+                        decided to make my dream come true. I hope that rsschool, a mathematical mindset, the ability to
+                        quickly assimilate information and learn to help me with this.</div>
+                </section>
+                <section id="education">
+                    <h2 class="about-me">Education</h2>
+                    <div class="about-me-text">Institute of Economics and Information Technologies in Zaporozhye.<br>
+                        Faculty: computer systems and networks.</div>
+                </section>
+                <section id="code">
+                    <h2 class="about-me">Code examples</h2>
+                    <pre class="code">
+                        <code>
+    function multiply (a, b) {
+        return a * b
+        }               </code>
+                    </pre>
+                </section>
+                <section id="experience">
+                    <h2 class="about-me">Experience</h2>
+                    <div class="about-me-text">
+                        <a href="https://rolling-scopes-school.github.io/zem41k-JSFEPRESCHOOL/portfolio/"> Portfolio
+                        </a><br>
+                        <a href="https://rolling-scopes-school.github.io/zem41k-JSFEPRESCHOOL/memory-game/">Memory
+                            game</a>
+                    </div>
+                </section>
+                <section id="english">
+                    <h2 class="about-me">English</h2>
+                    <div class="about-me-text">My level of English is A1, but I will try to constantly improve it.</div>
+                </section>
+            </main>
+            <footer>
+                <nav>
+                    <ul class="footer">
+                        <li><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg"
+                                    alt="Logotype" width="100" height="100"></a></li>
+                        <li class="year">2021</li>
+                        <li><a href="https://github.com/zem41k"><img src="./img/githublogo.png" alt="Github Profile"
+                                    width="100" height="80"></a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>

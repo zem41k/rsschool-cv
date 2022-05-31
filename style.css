@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-menu {
+    max-width: 1024px;
+    margin: auto;
+    height: 4rem;
+    background-color: rgb(226, 182, 37);
+    border-top: #000000 solid 1px;
+    border-right: #000000 solid 1px;
+    border-left: #000000 solid 1px;
+}
+
+.nav-flex {
+    display: flex;
+    padding-top: 4px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+.link-nav {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+}
+
+.flex-parent {
+    max-width: 1024px;
+    margin: auto; 
+    border: #000000 solid 1px;
+    display: flex;
+    /*-webkit-box-shadow: 1px 81px 100px 5px rgb(0 0 0 / 49%);
+    -moz-box-shadow: 1px 81px 100px 5px rgba(0,0,0,0.49);*/
+    box-shadow: 1px 81px 100px 5px rgb(0 0 0 / 33%)
+}
+
+.leftside {
+    display: flex;
+    padding: 1rem;
+    width: 35%;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #FFFFFF;
+    background-color: rgb(138, 175, 52);
+
+}
+
+.rightside {
+   /* background-color: rgb(155, 45, 152); */
+    width: 65%;
+    padding: 1rem;
+}
+
+.photo {
+    /* width: 94%; */
+    box-shadow: 5px 6px 32px 1px rgba(0, 0, 0, 0.353);  
+}
+
+.contacts {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.aside-line {
+    width: 100%;
+    height: 0.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.sidebar-text {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.link-tel {
+    color: #FFFFFF;
+}
+
+.head {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83, 83, 83);
+}
+
+.main-line {
+    width: 100%;
+    height: 0.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: rgb(84, 84, 84);
+}
+
+.about-me {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(84, 84, 84);
+}
+
+.about-me-text {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.code {
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(243, 243, 243);
+}
+
+.footer {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.year {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: rgb(155, 30, 30);
+}
